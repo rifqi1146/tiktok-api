@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+.env
+.python-version
+
+# Runtime / logs
+api_server.log
+*.log
+nohup.out
+
+# Reverse-engineering artifacts (large + proprietary, not redistributable)
+apk/
+libs/
+jadx_out/
+webmssdk/
+capture/
+
+# Chrome / Playwright
+.playwright/
+chrome-profile/
+*.har
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
